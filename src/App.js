@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class App extends Component {
   render() {
@@ -10,7 +10,6 @@ class App extends Component {
       </React.Fragment>
     );
   }
-  
 }
 
 export default App;
