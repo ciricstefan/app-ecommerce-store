@@ -1,17 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-6">column 1</div>
-        <div className="col-6">column 1</div>
-      </div>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <h3>HIIII APP</h3>
+      </React.Fragment>
+    );
+  }
+  
 }
 
 export default App;
