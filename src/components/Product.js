@@ -64,6 +64,7 @@ Product.propTypes = {
   }).isRequired
 };
 
+// styling for styled component ProductWrapper
 const ProductWrapper = styled.div`
   .card {
     border-color: transparent;
