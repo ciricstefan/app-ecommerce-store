@@ -95,7 +95,15 @@ class ProductProvider extends Component {
 
   // method to clear whole cart
   clearCart = () => {
-    console.log("cart was cleared");
+    this.setState(
+      () => {
+        return { cart: [] };
+      },
+      () => {
+        this.setProducts();
+        this.addTotals();
+      }
+    );
   };
 
   // method to calculate total price, tax and subtotal
